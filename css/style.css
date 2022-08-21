@@ -572,4 +572,75 @@ nav {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    cursor: pointer;
+}
+
+
+/* Footer style */
+.footer{
+    margin-top: 180px;
+}
+.footer__items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__item{
+    list-style: none;
+}
+.footer__contact > li{
+    margin: 20px;
+    list-style: none;
+}
+.footer__contact > li > a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--text-color);
+}
+.footer__contact > li > a > svg{
+    margin-right: 20px;
+}
+.footer__contact > li > a > svg:hover > path{
+    fill: #FF7A50;
+}
+.footer__menu > li{
+    margin: 10px;
+    list-style: none;
+}
+.footer__menu > li:nth-child(1){
+    font-weight: 600;
+}
+.footer__menu > li > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+}
+.footer__menu > li > a:hover{
+    color: #FF7A50;
+}
+.footer__bottom{
+    padding: 30px;
+}
+.footer__bottom > span{
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+}
+.footer__bottom , .footer__bottom > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__bottom > ul > li{
+    list-style: none;
+    margin-left: 30px;
+}
+.footer__bottom > ul > li > a{
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #646464;
 }
